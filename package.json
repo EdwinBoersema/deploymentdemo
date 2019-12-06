@@ -4,7 +4,8 @@
   "description": "Demo to learn how to deploy a website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/EdwinBoersema/deploymentdemo#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1"
   }
